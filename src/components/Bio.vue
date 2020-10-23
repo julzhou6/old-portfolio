@@ -22,11 +22,11 @@
             <v-card-title>Passionate and Motivated</v-card-title>
             <v-card-text>
               Hello, I'm Julie and I'm a fourth-year student studying Computer Science and Media Studies
-              at the University of Virginia graduating Fall 2020. I am passionate about web/mobile development, design, animation, and the arts.
+              at the University of Virginia graduating May 2021. I am passionate about web/mobile development, design, social justice, storytelling, and the arts.
             </v-card-text>
             <v-col align="start">
-              <a href="./assets/Zhou_Julie_Resume.pdf" download>
-                <v-btn color="red lighten-2">Download Resume</v-btn>
+              <a href="https://tiny.cc/julieqiuli" target="_blank">
+                <v-btn color="red lighten-2">View my Resume</v-btn>
               </a>
             </v-col>
           </v-card>

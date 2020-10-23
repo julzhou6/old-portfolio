@@ -1,17 +1,16 @@
 <template>
   <v-app style="background-color:#d8ecf3;">
     <v-app-bar color="red lighten-2" collapse app>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-row>
         <router-link to="/">
           <v-img src="https://i.ibb.co/41sk382/me-icon-2.png" max-width="60" />
         </router-link>
       </v-row>
-      <v-spacer />
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
     <router-view></router-view>
     <!-- Navigation Drawer -->
-    <v-navigation-drawer v-model="drawer" color="red lighten-2" absolute bottom temporary>
+    <v-navigation-drawer v-model="drawer" color="red lighten-2" absolute temporary>
       <v-list nav>
         <v-list-item v-for="i in items" :key="i.name" :to="{path: '/'+ i.name}">
           <v-list-item-icon>
